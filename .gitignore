@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+server/node_modules/
+new_figma/node_modules/
+
+# Build output
+dist/
+**/.vite/
+.next/
+out/
+build/
+
+# Environment variables — never commit secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+server/.env
+cookies.txt
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Uploads (user-generated files)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
+
+# TypeScript cache
+*.tsbuildinfo
+
+# pnpm
+.pnpm-store/

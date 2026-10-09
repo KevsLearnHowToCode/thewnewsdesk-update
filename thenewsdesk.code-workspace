@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../website-opinyon"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "thenewsdesk-main"
+	}
+}
